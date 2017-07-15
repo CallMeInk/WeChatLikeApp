@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/wechat_content_tv"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:hint="Edit something here"
+        android:layout_gravity="center_vertical"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/fragment1_btn"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="send to fragment2"
+        />
+</LinearLayout>

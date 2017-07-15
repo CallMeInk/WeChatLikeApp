@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/wechat_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:name="com.example.yu_k.myapplication.TitleFragment"/>
+
+    <FrameLayout
+        android:id="@+id/wechat_content_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <fragment
+        android:id="@+id/wechat_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:name="com.example.yu_k.myapplication.BottomFragment"
+        />
+</LinearLayout>

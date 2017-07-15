@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yu_k.myapplication.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/hotel_detail_reputation_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="21dp"
+        android:paddingBottom="24dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/show_all_other_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/test_drawable"
+            android:text="查看全部条真实住客点评"
+            android:textSize="12dp"
+            android:textColor="#ff00ff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="1231234123134123123412341245445454641231111111111114123"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="123"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="56277777777777777777777777777777777777777777777777777777777777777777777777777777777777777"/>
+    </LinearLayout>
+</LinearLayout>
