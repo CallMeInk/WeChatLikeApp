@@ -32,25 +32,26 @@ public class MainActivity extends Activity implements BottomFragment.OnBottomCli
                 break;
             case 3:
                 mContentFragment3 = new ContentFragment3();
-                sdfa.replacfasfesdsaction.commit();
+                fragmentTransaction.replace(R.id.wechat_content_framelayout,mContentFragment3);
+                fragmentTransaction.commit();
                 break;
         }
-        return 0;asf
-    }asdf
-sdfa
-    public void onCresdfate(Bundle savedInstanceState) {
-        super.onCreaate(savedInstanceState);
-        setContentView(R.layout.wechat_main_layout);
-        dfsa = getFragmentManager();
+        return 0;
     }
-asdf
-    private void rfasdemoveAllFragment(FragmentTransaction fragmentTransaction){
-        if (asd != null){
-            fragmasdentTransaction.remove(mContentFragment1);
-        }asdff
-        if (mContaentFragment2 && null){
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.wechat_main_layout);
+        mFragmentManager = getFragmentManager();
+    }
+
+    private void removeAllFragment(FragmentTransaction fragmentTransaction){
+        if (mContentFragment1 != null){
+            fragmentTransaction.remove(mContentFragment1);
+        }
+        if (mContentFragment2 != null){
             fragmentTransaction.remove(mContentFragment2);
-        }sdfas
+        }
         if (mContentFragment3 != null){
             fragmentTransaction.remove(mContentFragment3);
         }
