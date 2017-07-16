@@ -66,6 +66,4 @@ public class MainActivity extends Activity implements BottomFragment.OnBottomCli
         fragmentTransaction.commit();
         mContentFragment2.setData(string);
     }
-
-//git comment merged!!
-}
+//merge origin/dev to master}
