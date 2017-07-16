@@ -66,4 +66,5 @@ public class MainActivity extends Activity implements BottomFragment.OnBottomCli
         fragmentTransaction.commit();
         mContentFragment2.setData(string);
     }
-//merge origin/dev to master}
+//merge origin/dev to master
+}
