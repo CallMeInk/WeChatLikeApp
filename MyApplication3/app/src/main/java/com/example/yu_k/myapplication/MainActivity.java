@@ -67,5 +67,5 @@ public class MainActivity extends Activity implements BottomFragment.OnBottomCli
         mContentFragment2.setData(string);
     }
 
-    //comment && add something
+//git comment merged!!
 }
