@@ -7,13 +7,13 @@ import android.os.Bundle;
 
 public class MainActivity extends Activity implements BottomFragment.OnBottomClickCallback,ContentFragment.OnSendMessageClickCallback{
 
-    private ContentFragment mContentFragment1;
-
     private ContentFragment2 mContentFragment2;
 
     private ContentFragment3 mContentFragment3;
 
     private FragmentManager mFragmentManager;
+    
+    private ContentFragment mContentFragment1;
 
     @Override
     public int buttonClick(int position) {
