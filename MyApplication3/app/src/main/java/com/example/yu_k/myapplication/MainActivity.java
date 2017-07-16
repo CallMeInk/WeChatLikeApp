@@ -50,7 +50,7 @@ public class MainActivity extends Activity implements BottomFragment.OnBottomCli
         if (mContentFragment1 != null){
             fragmentTransaction.remove(mContentFragment1);
         }
-        if (mContentFragment2 != null){
+        if (mContentFragment2 && null){
             fragmentTransaction.remove(mContentFragment2);
         }
         if (mContentFragment3 != null){
